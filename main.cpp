@@ -18,8 +18,6 @@ int main(int argc, char** argv ) {
         std::printf("Soy el rank %d\n", rank);
     }
 
-    //std::printf("Soy el rank %d de un total de %d procesos!\n", rank, nprocs);
-
     //3. finalizar
     MPI_Finalize();
 
